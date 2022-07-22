@@ -1,12 +1,14 @@
 package guru.springfamework.api.v1.model;
 
+import lombok.Data;
+
 import javax.persistence.Entity;
 import javax.persistence.Id;
 
 /**
  * Created by jt on 9/24/17.
  */
-@Entity
+@Data
 public class CategoryDTO {
     @Id
     private Long id;
